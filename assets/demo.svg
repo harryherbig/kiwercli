@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 464" width="1000" height="464" role="img" aria-label="Terminal demo: set a delivery ZIP, search products, bulk-add them to the basket">
+  <style>
+    text{font-family:ui-monospace, SFMono-Regular, Menlo, Consolas, 'Liberation Mono', monospace;font-size:15px;white-space:pre}
+    @keyframes l0{0%,2.22%{opacity:0}3.72%,94%{opacity:1}97%,100%{opacity:0}}.l0{animation:l0 18.0s linear infinite}@keyframes l1{0%,10.22%{opacity:0}11.72%,94%{opacity:1}97%,100%{opacity:0}}.l1{animation:l1 18.0s linear infinite}@keyframes l3{0%,15.72%{opacity:0}17.22%,94%{opacity:1}97%,100%{opacity:0}}.l3{animation:l3 18.0s linear infinite}@keyframes l4{0%,23.72%{opacity:0}25.22%,94%{opacity:1}97%,100%{opacity:0}}.l4{animation:l4 18.0s linear infinite}@keyframes l5{0%,26.72%{opacity:0}28.22%,94%{opacity:1}97%,100%{opacity:0}}.l5{animation:l5 18.0s linear infinite}@keyframes l6{0%,29.72%{opacity:0}31.22%,94%{opacity:1}97%,100%{opacity:0}}.l6{animation:l6 18.0s linear infinite}@keyframes l8{0%,35.22%{opacity:0}36.72%,94%{opacity:1}97%,100%{opacity:0}}.l8{animation:l8 18.0s linear infinite}@keyframes l9{0%,43.22%{opacity:0}44.72%,94%{opacity:1}97%,100%{opacity:0}}.l9{animation:l9 18.0s linear infinite}@keyframes l11{0%,48.72%{opacity:0}50.22%,94%{opacity:1}97%,100%{opacity:0}}.l11{animation:l11 18.0s linear infinite}@keyframes l12{0%,56.72%{opacity:0}58.22%,94%{opacity:1}97%,100%{opacity:0}}.l12{animation:l12 18.0s linear infinite}@keyframes l14{0%,62.22%{opacity:0}63.72%,94%{opacity:1}97%,100%{opacity:0}}.l14{animation:l14 18.0s linear infinite}
+    @media (prefers-reduced-motion: reduce){text{animation:none!important;opacity:1!important}}
+  </style>
+  <rect width="1000" height="464" rx="14" fill="#111813"/>
+  <rect width="1000" height="40" rx="14" fill="#1c271d"/>
+  <rect y="26" width="1000" height="14" fill="#1c271d"/>
+  <circle cx="24" cy="20" r="6" fill="#e2675a"/><circle cx="44" cy="20" r="6" fill="#e6b450"/><circle cx="64" cy="20" r="6" fill="#8cc63f"/>
+  <text x="500.0" y="25" text-anchor="middle" fill="#7f9a72" style="font-size:13px">kiwercli — Carbonara, delivered to 50667</text>
+    <text class="l0" x="28" y="74"><tspan fill="#8cc63f">$ </tspan><tspan fill="#eaf5d8">kiwercli store set-delivery 50667</tspan></text>
+  <text class="l1" x="28" y="98"><tspan fill="#9fb594">{&quot;wwIdent&quot;:&quot;320509&quot;,&quot;zipCode&quot;:&quot;50667&quot;,&quot;serviceType&quot;:&quot;DELIVERY&quot;}</tspan></text>
+  <text class="l3" x="28" y="146"><tspan fill="#8cc63f">$ </tspan><tspan fill="#eaf5d8">kiwercli search spaghetti --category nudeln --per-page 3 | jq -r &#x27;.[].productName&#x27;</tspan></text>
+  <text class="l4" x="28" y="170"><tspan fill="#9fb594">Barilla Spaghetti Nr.5 500g</tspan></text>
+  <text class="l5" x="28" y="194"><tspan fill="#9fb594">REWE Bio Spaghetti Hartweizen 500g</tspan></text>
+  <text class="l6" x="28" y="218"><tspan fill="#9fb594">REWE Bio Spaghetti Dinkel 500g</tspan></text>
+  <text class="l8" x="28" y="266"><tspan fill="#8cc63f">$ </tspan><tspan fill="#eaf5d8">kiwercli search guanciale --per-page 1 | jq -r &#x27;.[].productName&#x27;</tspan></text>
+  <text class="l9" x="28" y="290"><tspan fill="#9fb594">Clai Guanciale Stagionato luftgetrocknete Schweinebacke 275g</tspan></text>
+  <text class="l11" x="28" y="338"><tspan fill="#8cc63f">$ </tspan><tspan fill="#eaf5d8">kiwercli basket bulk-add &#x27;[{&quot;listingId&quot;:&quot;13-8076800195057-…&quot;},{&quot;listingId&quot;:&quot;8-A3INUKP6-…&quot;}, …]&#x27;</tspan></text>
+  <text class="l12" x="28" y="362"><tspan fill="#9fb594">{&quot;added&quot;:[&quot;13-8076800195057-…&quot;,&quot;8-A3INUKP6-…&quot;,&quot;13-4337256067508-…&quot;,&quot;13-8001230000787-…&quot;],&quot;errors&quot;:[]}</tspan></text>
+  <text class="l14" x="28" y="410"><tspan fill="#c9ea8c" font-weight="700">✔ 4 items in the basket — checkout stays with you on rewe.de</tspan></text>
+</svg>

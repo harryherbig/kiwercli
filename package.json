@@ -1,0 +1,25 @@
+{
+  "name": "kiwercli",
+  "version": "0.1.0",
+  "description": "REWE basket CLI (delivery & pickup) for AI agents — never places orders",
+  "type": "module",
+  "bin": {
+    "kiwercli": "./dist/cli.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsx src/cli.ts",
+    "start": "node dist/cli.js",
+    "test": "node --import tsx --test test/*.test.ts"
+  },
+  "dependencies": {
+    "axios": "^1.14.0",
+    "commander": "^13.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.15.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.8.0"
+  },
+  "license": "MIT"
+}
